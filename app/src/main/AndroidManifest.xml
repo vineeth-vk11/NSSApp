@@ -13,16 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".contact" />
-        <activity android:name=".Tasks" />
-        <activity android:name=".clp" />
-        <activity android:name=".aboutnss" />
+        <activity android:name=".activity.curriculum"></activity>
+        <activity android:name=".activity.status" />
+        <activity android:name=".activity.syllabus" />
+        <activity android:name=".activity.aboutclp" />
+        <activity android:name=".activity.attendance" />
+        <activity android:name=".activity.clp" />
+        <activity android:name=".activity.contact" />
+        <activity android:name=".activity.Tasks" />
+        <activity android:name=".activity.aboutnss" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".SplashActivity">
+        <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -31,7 +35,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 

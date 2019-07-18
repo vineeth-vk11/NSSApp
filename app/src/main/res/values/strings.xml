@@ -10,6 +10,9 @@
     <string name="login">Login</string>
     <string name="register_here">Register Here.</string>
     <string name="password">Password</string>
+    <string name="home_type_id">home_type_id</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 
 
 </resources>

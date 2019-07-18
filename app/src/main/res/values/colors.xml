@@ -8,11 +8,11 @@
 
     <color name="black">#000000</color>
 
-
-
-
-
-
+    <color name="textColor">#202021</color>
+    <color name="lighttextcolor">#383839</color>
+    <color name="topbar_textcolor">#FFF</color>
+    <color name="backgroundColor">#fcf3ed</color>
+    <color name="progressbar_color">#202021</color>
 
 
 </resources>

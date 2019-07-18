@@ -1,4 +1,4 @@
-package com.example.nssapp;
+package com.example.nssapp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.nssapp.R;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -71,18 +73,18 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.aboutnss) {
-            Intent i = new Intent(HomeActivity.this,aboutnss.class);
+            Intent i = new Intent(HomeActivity.this, aboutnss.class);
             startActivity(i);
         } else if (id == R.id.clp) {
-            Intent i = new Intent(HomeActivity.this,clp.class);
+            Intent i = new Intent(HomeActivity.this, clp.class);
             startActivity(i);
 
         } else if (id == R.id.tasks) {
-            Intent i = new Intent(HomeActivity.this,Tasks.class);
+            Intent i = new Intent(HomeActivity.this, Tasks.class);
             startActivity(i);
 
         } else if (id == R.id.contact) {
-            Intent i = new Intent(HomeActivity.this,contact.class);
+            Intent i = new Intent(HomeActivity.this, contact.class);
             startActivity(i);
 
         }

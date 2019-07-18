@@ -1,7 +1,9 @@
-package com.example.nssapp;
+package com.example.nssapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.nssapp.R;
 
 public class contact extends AppCompatActivity {
 
