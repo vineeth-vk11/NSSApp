@@ -10,7 +10,37 @@
     <string name="login">Login</string>
     <string name="register_here">Register Here.</string>
     <string name="password">Password</string>
-    <string name="home_type_id">home_type_id</string>
+    <string name="Phone">Phone number</string>
+    <string name="already">Already Registered?Login Here</string>
+    <string name="register">REGISTER</string>
+    <string name="email">Email</string>
+    <string name="idno">Id Number</string>
+    <string name="room">Room Number</string>
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="input_error_id">enter a valid ID Number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="registration_fail">Registered Failed</string>
+    <string name="login_success">Login Success</string>
+    <string name="login_fail">Login Fail</string>
+
+
+
+
+
+
+    <string name="input_error_room">enter a valid Room Number</string>
+
+
+
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
 
