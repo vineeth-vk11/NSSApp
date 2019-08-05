@@ -67,7 +67,7 @@ public class clp_adapter extends RecyclerView.Adapter<clp_adapter.clpViewHolder>
                     intent =  new Intent(context, syllabus.class);
                     break;
                 case 3:
-                    intent =  new Intent(context, status.class);
+                    intent =  new Intent(context, mystatus.class);
                     break;
                 case 4:
                     intent =  new Intent(context, attendance.class);

@@ -9,6 +9,7 @@
     <color name="black">#000000</color>
 
     <color name="topbar_textcolor">#FFF</color>
+    <color name="colorDarkGrey">#000</color>
 
 
 </resources>

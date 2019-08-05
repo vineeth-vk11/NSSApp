@@ -28,18 +28,15 @@
     <string name="registration_success">Registered Successfully</string>
     <string name="registration_fail">Registered Failed</string>
     <string name="login_success">Login Success</string>
+    <string name="empty">Enter "NOTHING" if nothing is taught</string>
+    <string name="Enter_success">Enter Success</string>
+    <string name="Enter_fail">Enter fail</string>
+
+
     <string name="login_fail">Login Fail</string>
 
 
-
-
-
-
     <string name="input_error_room">enter a valid Room Number</string>
-
-
-
-
 
 
     <!-- TODO: Remove or change this placeholder text -->

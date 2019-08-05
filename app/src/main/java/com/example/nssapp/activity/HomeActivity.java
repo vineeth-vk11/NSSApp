@@ -14,9 +14,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.nssapp.R;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    DrawerLayout drawer;
+    NavigationView navigationView;
+    Toolbar toolbar=null;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +32,13 @@ public class HomeActivity extends AppCompatActivity
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
@@ -87,6 +92,12 @@ public class HomeActivity extends AppCompatActivity
             Intent i = new Intent(HomeActivity.this, contact.class);
             startActivity(i);
 
+        }
+
+        else if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            finish();
+            startActivity(new Intent(HomeActivity.this,MainActivity.class));
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
