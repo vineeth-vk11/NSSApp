@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "879262008543",
+    "firebase_url": "https://nssapp-45bae.firebaseio.com",
+    "project_id": "nssapp-45bae",
+    "storage_bucket": "nssapp-45bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879262008543:android:f47c421cfebc2bdd",
+        "android_client_info": {
+          "package_name": "com.example.nssapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879262008543-i7p5lvdcun62ujatihpnuloigo73elvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nssapp",
+            "certificate_hash": "7b061a482b0e86305d9b3d6d989c5d66d2fe1e28"
+          }
+        },
+        {
+          "client_id": "879262008543-kou0q5cp5dcetbn2jmv682p6usfs9ps4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVq3oVDeEDWdBwsRhTbAEayoZwwNq-x5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879262008543-kou0q5cp5dcetbn2jmv682p6usfs9ps4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
